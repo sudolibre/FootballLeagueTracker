@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8E6D1181E3004C0008E90CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E6D1171E3004C0008E90CE /* AppDelegate.swift */; };
+		E8E6D11A1E3004C0008E90CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E6D1191E3004C0008E90CE /* ViewController.swift */; };
+		E8E6D11D1E3004C0008E90CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E6D11B1E3004C0008E90CE /* Main.storyboard */; };
+		E8E6D11F1E3004C0008E90CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E6D11E1E3004C0008E90CE /* Assets.xcassets */; };
+		E8E6D1221E3004C0008E90CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E6D1201E3004C0008E90CE /* LaunchScreen.storyboard */; };
+		E8E6D12D1E3004C0008E90CE /* FootballLeagueTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E6D12C1E3004C0008E90CE /* FootballLeagueTrackerTests.swift */; };
+		E8E6D1381E3004C0008E90CE /* FootballLeagueTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E6D1371E3004C0008E90CE /* FootballLeagueTrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8E6D1291E3004C0008E90CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8E6D10C1E3004C0008E90CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8E6D1131E3004C0008E90CE;
+			remoteInfo = FootballLeagueTracker;
+		};
+		E8E6D1341E3004C0008E90CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8E6D10C1E3004C0008E90CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8E6D1131E3004C0008E90CE;
+			remoteInfo = FootballLeagueTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8E6D1141E3004C0008E90CE /* FootballLeagueTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballLeagueTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E6D1171E3004C0008E90CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8E6D1191E3004C0008E90CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E8E6D11C1E3004C0008E90CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8E6D11E1E3004C0008E90CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8E6D1211E3004C0008E90CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8E6D1231E3004C0008E90CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8E6D1281E3004C0008E90CE /* FootballLeagueTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FootballLeagueTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E6D12C1E3004C0008E90CE /* FootballLeagueTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballLeagueTrackerTests.swift; sourceTree = "<group>"; };
+		E8E6D12E1E3004C0008E90CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8E6D1331E3004C0008E90CE /* FootballLeagueTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FootballLeagueTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E6D1371E3004C0008E90CE /* FootballLeagueTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballLeagueTrackerUITests.swift; sourceTree = "<group>"; };
+		E8E6D1391E3004C0008E90CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8E6D1111E3004C0008E90CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E6D1251E3004C0008E90CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E6D1301E3004C0008E90CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8E6D10B1E3004C0008E90CE = {
+			isa = PBXGroup;
+			children = (
+				E8E6D1161E3004C0008E90CE /* FootballLeagueTracker */,
+				E8E6D12B1E3004C0008E90CE /* FootballLeagueTrackerTests */,
+				E8E6D1361E3004C0008E90CE /* FootballLeagueTrackerUITests */,
+				E8E6D1151E3004C0008E90CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8E6D1151E3004C0008E90CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8E6D1141E3004C0008E90CE /* FootballLeagueTracker.app */,
+				E8E6D1281E3004C0008E90CE /* FootballLeagueTrackerTests.xctest */,
+				E8E6D1331E3004C0008E90CE /* FootballLeagueTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8E6D1161E3004C0008E90CE /* FootballLeagueTracker */ = {
+			isa = PBXGroup;
+			children = (
+				E8E6D1171E3004C0008E90CE /* AppDelegate.swift */,
+				E8E6D1191E3004C0008E90CE /* ViewController.swift */,
+				E8E6D11B1E3004C0008E90CE /* Main.storyboard */,
+				E8E6D11E1E3004C0008E90CE /* Assets.xcassets */,
+				E8E6D1201E3004C0008E90CE /* LaunchScreen.storyboard */,
+				E8E6D1231E3004C0008E90CE /* Info.plist */,
+			);
+			path = FootballLeagueTracker;
+			sourceTree = "<group>";
+		};
+		E8E6D12B1E3004C0008E90CE /* FootballLeagueTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8E6D12C1E3004C0008E90CE /* FootballLeagueTrackerTests.swift */,
+				E8E6D12E1E3004C0008E90CE /* Info.plist */,
+			);
+			path = FootballLeagueTrackerTests;
+			sourceTree = "<group>";
+		};
+		E8E6D1361E3004C0008E90CE /* FootballLeagueTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E8E6D1371E3004C0008E90CE /* FootballLeagueTrackerUITests.swift */,
+				E8E6D1391E3004C0008E90CE /* Info.plist */,
+			);
+			path = FootballLeagueTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8E6D1131E3004C0008E90CE /* FootballLeagueTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8E6D13C1E3004C0008E90CE /* Build configuration list for PBXNativeTarget "FootballLeagueTracker" */;
+			buildPhases = (
+				E8E6D1101E3004C0008E90CE /* Sources */,
+				E8E6D1111E3004C0008E90CE /* Frameworks */,
+				E8E6D1121E3004C0008E90CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FootballLeagueTracker;
+			productName = FootballLeagueTracker;
+			productReference = E8E6D1141E3004C0008E90CE /* FootballLeagueTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8E6D1271E3004C0008E90CE /* FootballLeagueTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8E6D13F1E3004C0008E90CE /* Build configuration list for PBXNativeTarget "FootballLeagueTrackerTests" */;
+			buildPhases = (
+				E8E6D1241E3004C0008E90CE /* Sources */,
+				E8E6D1251E3004C0008E90CE /* Frameworks */,
+				E8E6D1261E3004C0008E90CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8E6D12A1E3004C0008E90CE /* PBXTargetDependency */,
+			);
+			name = FootballLeagueTrackerTests;
+			productName = FootballLeagueTrackerTests;
+			productReference = E8E6D1281E3004C0008E90CE /* FootballLeagueTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8E6D1321E3004C0008E90CE /* FootballLeagueTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8E6D1421E3004C0008E90CE /* Build configuration list for PBXNativeTarget "FootballLeagueTrackerUITests" */;
+			buildPhases = (
+				E8E6D12F1E3004C0008E90CE /* Sources */,
+				E8E6D1301E3004C0008E90CE /* Frameworks */,
+				E8E6D1311E3004C0008E90CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8E6D1351E3004C0008E90CE /* PBXTargetDependency */,
+			);
+			name = FootballLeagueTrackerUITests;
+			productName = FootballLeagueTrackerUITests;
+			productReference = E8E6D1331E3004C0008E90CE /* FootballLeagueTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8E6D10C1E3004C0008E90CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = dayj;
+				TargetAttributes = {
+					E8E6D1131E3004C0008E90CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					E8E6D1271E3004C0008E90CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E8E6D1131E3004C0008E90CE;
+					};
+					E8E6D1321E3004C0008E90CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E8E6D1131E3004C0008E90CE;
+					};
+				};
+			};
+			buildConfigurationList = E8E6D10F1E3004C0008E90CE /* Build configuration list for PBXProject "FootballLeagueTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8E6D10B1E3004C0008E90CE;
+			productRefGroup = E8E6D1151E3004C0008E90CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8E6D1131E3004C0008E90CE /* FootballLeagueTracker */,
+				E8E6D1271E3004C0008E90CE /* FootballLeagueTrackerTests */,
+				E8E6D1321E3004C0008E90CE /* FootballLeagueTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8E6D1121E3004C0008E90CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E6D1221E3004C0008E90CE /* LaunchScreen.storyboard in Resources */,
+				E8E6D11F1E3004C0008E90CE /* Assets.xcassets in Resources */,
+				E8E6D11D1E3004C0008E90CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E6D1261E3004C0008E90CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E6D1311E3004C0008E90CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8E6D1101E3004C0008E90CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E6D11A1E3004C0008E90CE /* ViewController.swift in Sources */,
+				E8E6D1181E3004C0008E90CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E6D1241E3004C0008E90CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E6D12D1E3004C0008E90CE /* FootballLeagueTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E6D12F1E3004C0008E90CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E6D1381E3004C0008E90CE /* FootballLeagueTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8E6D12A1E3004C0008E90CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8E6D1131E3004C0008E90CE /* FootballLeagueTracker */;
+			targetProxy = E8E6D1291E3004C0008E90CE /* PBXContainerItemProxy */;
+		};
+		E8E6D1351E3004C0008E90CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8E6D1131E3004C0008E90CE /* FootballLeagueTracker */;
+			targetProxy = E8E6D1341E3004C0008E90CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8E6D11B1E3004C0008E90CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8E6D11C1E3004C0008E90CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8E6D1201E3004C0008E90CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8E6D1211E3004C0008E90CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8E6D13A1E3004C0008E90CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8E6D13B1E3004C0008E90CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8E6D13D1E3004C0008E90CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FootballLeagueTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dayj.FootballLeagueTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E8E6D13E1E3004C0008E90CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FootballLeagueTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dayj.FootballLeagueTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E8E6D1401E3004C0008E90CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FootballLeagueTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dayj.FootballLeagueTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FootballLeagueTracker.app/FootballLeagueTracker";
+			};
+			name = Debug;
+		};
+		E8E6D1411E3004C0008E90CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FootballLeagueTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dayj.FootballLeagueTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FootballLeagueTracker.app/FootballLeagueTracker";
+			};
+			name = Release;
+		};
+		E8E6D1431E3004C0008E90CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FootballLeagueTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dayj.FootballLeagueTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FootballLeagueTracker;
+			};
+			name = Debug;
+		};
+		E8E6D1441E3004C0008E90CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FootballLeagueTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dayj.FootballLeagueTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FootballLeagueTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8E6D10F1E3004C0008E90CE /* Build configuration list for PBXProject "FootballLeagueTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E6D13A1E3004C0008E90CE /* Debug */,
+				E8E6D13B1E3004C0008E90CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8E6D13C1E3004C0008E90CE /* Build configuration list for PBXNativeTarget "FootballLeagueTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E6D13D1E3004C0008E90CE /* Debug */,
+				E8E6D13E1E3004C0008E90CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E8E6D13F1E3004C0008E90CE /* Build configuration list for PBXNativeTarget "FootballLeagueTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E6D1401E3004C0008E90CE /* Debug */,
+				E8E6D1411E3004C0008E90CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E8E6D1421E3004C0008E90CE /* Build configuration list for PBXNativeTarget "FootballLeagueTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E6D1431E3004C0008E90CE /* Debug */,
+				E8E6D1441E3004C0008E90CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8E6D10C1E3004C0008E90CE /* Project object */;
+}
