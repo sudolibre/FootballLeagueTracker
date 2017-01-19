@@ -14,6 +14,16 @@
 		E8E6D1221E3004C0008E90CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E6D1201E3004C0008E90CE /* LaunchScreen.storyboard */; };
 		E8E6D12D1E3004C0008E90CE /* FootballLeagueTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E6D12C1E3004C0008E90CE /* FootballLeagueTrackerTests.swift */; };
 		E8E6D1381E3004C0008E90CE /* FootballLeagueTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E6D1371E3004C0008E90CE /* FootballLeagueTrackerUITests.swift */; };
+		E8E6D1481E3004DF008E90CE /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E6D1451E3004DF008E90CE /* Game.swift */; };
+		E8E6D1491E3004DF008E90CE /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E6D1461E3004DF008E90CE /* Team.swift */; };
+		E8E6D14C1E3005BB008E90CE /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E6D14B1E3005BB008E90CE /* Season.swift */; };
+		E8E6D14E1E300A6B008E90CE /* TeamStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E6D14D1E300A6B008E90CE /* TeamStats.swift */; };
+		E8E6D1501E301BDE008E90CE /* GameListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E6D14F1E301BDE008E90CE /* GameListViewController.swift */; };
+		E8E6D1521E301BE6008E90CE /* TeamListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E6D1511E301BE6008E90CE /* TeamListViewController.swift */; };
+		E8E6D1541E301C59008E90CE /* SeasonStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E6D1531E301C59008E90CE /* SeasonStore.swift */; };
+		E8E6D1561E303311008E90CE /* NewGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E6D1551E303311008E90CE /* NewGameController.swift */; };
+		E8E6D1581E30331E008E90CE /* GameDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E6D1571E30331E008E90CE /* GameDetailController.swift */; };
+		E8E6D15A1E303329008E90CE /* TeamDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E6D1591E303329008E90CE /* TeamDetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		E8E6D1331E3004C0008E90CE /* FootballLeagueTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FootballLeagueTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E6D1371E3004C0008E90CE /* FootballLeagueTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballLeagueTrackerUITests.swift; sourceTree = "<group>"; };
 		E8E6D1391E3004C0008E90CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8E6D1451E3004DF008E90CE /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		E8E6D1461E3004DF008E90CE /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		E8E6D14B1E3005BB008E90CE /* Season.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
+		E8E6D14D1E300A6B008E90CE /* TeamStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamStats.swift; sourceTree = "<group>"; };
+		E8E6D14F1E301BDE008E90CE /* GameListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameListViewController.swift; sourceTree = "<group>"; };
+		E8E6D1511E301BE6008E90CE /* TeamListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamListViewController.swift; sourceTree = "<group>"; };
+		E8E6D1531E301C59008E90CE /* SeasonStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonStore.swift; sourceTree = "<group>"; };
+		E8E6D1551E303311008E90CE /* NewGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGameController.swift; sourceTree = "<group>"; };
+		E8E6D1571E30331E008E90CE /* GameDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameDetailController.swift; sourceTree = "<group>"; };
+		E8E6D1591E303329008E90CE /* TeamDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamDetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +118,18 @@
 			isa = PBXGroup;
 			children = (
 				E8E6D1171E3004C0008E90CE /* AppDelegate.swift */,
+				E8E6D1451E3004DF008E90CE /* Game.swift */,
+				E8E6D1461E3004DF008E90CE /* Team.swift */,
+				E8E6D14B1E3005BB008E90CE /* Season.swift */,
+				E8E6D1531E301C59008E90CE /* SeasonStore.swift */,
+				E8E6D14D1E300A6B008E90CE /* TeamStats.swift */,
 				E8E6D1191E3004C0008E90CE /* ViewController.swift */,
 				E8E6D11B1E3004C0008E90CE /* Main.storyboard */,
+				E8E6D1551E303311008E90CE /* NewGameController.swift */,
+				E8E6D1571E30331E008E90CE /* GameDetailController.swift */,
+				E8E6D1591E303329008E90CE /* TeamDetailController.swift */,
+				E8E6D14F1E301BDE008E90CE /* GameListViewController.swift */,
+				E8E6D1511E301BE6008E90CE /* TeamListViewController.swift */,
 				E8E6D11E1E3004C0008E90CE /* Assets.xcassets */,
 				E8E6D1201E3004C0008E90CE /* LaunchScreen.storyboard */,
 				E8E6D1231E3004C0008E90CE /* Info.plist */,
@@ -259,7 +289,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8E6D14E1E300A6B008E90CE /* TeamStats.swift in Sources */,
+				E8E6D1541E301C59008E90CE /* SeasonStore.swift in Sources */,
+				E8E6D1561E303311008E90CE /* NewGameController.swift in Sources */,
+				E8E6D15A1E303329008E90CE /* TeamDetailController.swift in Sources */,
+				E8E6D1581E30331E008E90CE /* GameDetailController.swift in Sources */,
+				E8E6D1521E301BE6008E90CE /* TeamListViewController.swift in Sources */,
+				E8E6D1491E3004DF008E90CE /* Team.swift in Sources */,
 				E8E6D11A1E3004C0008E90CE /* ViewController.swift in Sources */,
+				E8E6D14C1E3005BB008E90CE /* Season.swift in Sources */,
+				E8E6D1481E3004DF008E90CE /* Game.swift in Sources */,
+				E8E6D1501E301BDE008E90CE /* GameListViewController.swift in Sources */,
 				E8E6D1181E3004C0008E90CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
