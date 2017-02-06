@@ -13,10 +13,11 @@ class GameListViewController: UITableViewController {
     @IBAction func addGame(_ sender: UIBarButtonItem) {
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
         let newGameVC = storyBoard.instantiateViewController(withIdentifier: "newGame") as! NewGameController
-        newGameVC.onSave = { (game) in
-            self.dataSource.addGame(game)
-            _ = self.navigationController?.popViewController(animated: true)
-            //self.tableView.reloadData()
+        newGameVC.onSave = { [weak self] (game) in
+            if let strongSelf = self {
+            strongSelf.dataSource.addGame(game)
+            _ = strongSelf.navigationController?.popViewController(animated: true)
+            }
         }
         show(newGameVC, sender: UIBarButtonItem.self)
     }
@@ -39,8 +40,8 @@ class GameListViewController: UITableViewController {
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
         let gameDetailVC = storyBoard.instantiateViewController(withIdentifier: "gameDetail") as! GameDetailController
         gameDetailVC.game = game
-        gameDetailVC.onEdit = {
-                _ = self.navigationController?.popToRootViewController(animated: true)
+        gameDetailVC.onEdit = { [weak self] in
+                _ = self?.navigationController?.popToRootViewController(animated: true)
             }
         show(gameDetailVC, sender: self)
     }

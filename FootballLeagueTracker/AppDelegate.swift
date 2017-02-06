@@ -12,39 +12,22 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    
+    var seasonStore: SeasonStore!
+
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        let greenbay = Team(name: "Green Bay")
-        let cowboys = Team(name: "Cowboys")
-        let jets = Team(name: "jets")
-        let falcons = Team(name: "falcons")
-        let saints = Team(name: "saints")
-        let giants = Team(name: "giants")
+        //retrieve a SeasonStore from disk or create a new one
+        let fileURL = URL(fileURLWithPath: "/Users/noj/Code/TIY/FootballLeagueTracker/jsonSeason.txt")
+        let seasonFromFile = try? Data(contentsOf: fileURL)
+        if let seasonFile = seasonFromFile {
+            seasonStore = SeasonStore(jsonData: seasonFile)
+        } else {
+            seasonStore = SeasonStore()
+        }
         
-        let games: [Game] = [
-            //giants will be fourth with one draw
-            Game(homeTeam: giants,     visitingTeam: falcons,      homeTeamScore: 0,       visitingTeamScore: 0),
-            //jets will be second with three wins
-            Game(homeTeam:  jets,       visitingTeam: cowboys,      homeTeamScore: 14,      visitingTeamScore: 2),
-            Game(homeTeam: jets,       visitingTeam: falcons,      homeTeamScore: 14,      visitingTeamScore: 2),
-            Game(homeTeam: saints,     visitingTeam: jets,         homeTeamScore: 14,      visitingTeamScore: 22),
-            //greenbay will have four wins and be first
-            Game(homeTeam:  greenbay,   visitingTeam: cowboys,  homeTeamScore: 31,  visitingTeamScore: 26),
-            Game(homeTeam: jets,       visitingTeam: greenbay, homeTeamScore: 12,  visitingTeamScore: 26),
-            Game(homeTeam: greenbay,   visitingTeam: falcons,  homeTeamScore: 31,  visitingTeamScore: 12),
-            Game(homeTeam: greenbay,   visitingTeam: giants,   homeTeamScore: 31,  visitingTeamScore: 12),
-            //saints will be thrid with two wins
-            Game(homeTeam: saints,     visitingTeam: giants,       homeTeamScore: 14,      visitingTeamScore: 2),
-            Game(homeTeam: saints,     visitingTeam: falcons,      homeTeamScore: 14,      visitingTeamScore: 2),
-            //falcons will just lose again and be second to last
-            Game(homeTeam: giants,     visitingTeam: falcons,      homeTeamScore: 7,       visitingTeamScore: 0)
-        ]
-        
-        let seasonStore = SeasonStore(games: games)
-        
+        //share the SeasonStore with the top level view controllers
         let tabBarVC = window?.rootViewController! as! UITabBarController
         let gamesNavController = tabBarVC.viewControllers![0] as! UINavigationController
         let teamsNavController = tabBarVC.viewControllers![1] as! UINavigationController
@@ -64,6 +47,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
+        seasonStore.saveJSONToDisk()
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
     }
